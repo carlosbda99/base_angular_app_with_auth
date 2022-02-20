@@ -1,0 +1,12 @@
+<form [formGroup]="form">
+    <label for="username">Usuário</label>
+    <input type="text" id="username" formControlName="username">
+
+    <br>
+
+    <label for="password">Senha</label>
+    <input type="password" id="password" formControlName="password">
+
+    <br>
+    <button (click)="login()">Login</button>
+</form>
